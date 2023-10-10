@@ -191,7 +191,7 @@ color:#404bbf;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .btn{
     margin: 0 auto;
@@ -523,7 +523,7 @@ text-decoration: none;
 }
 .social-footer-text{
     color: var(--WHITE, #FFF);
-
+    margin-bottom: 16px;
 /* Body Medium */
 
 font-weight: 500;
@@ -540,4 +540,7 @@ letter-spacing: 0.32px;
 }
 .foot:hover,.foot:focus{
     background-color: #31D0AA;
+}
+.footered{
+    gap: 16px;
 }
