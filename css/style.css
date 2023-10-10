@@ -250,9 +250,7 @@ color:#404bbf;
     border-radius: 4px;
 
 }
-.icon{
-    fill: #f4f4fd;
-}
+
 .icon-bcn {
 	display: flex;
 	align-items: center;
@@ -324,6 +322,7 @@ color:#404bbf;
 	border-radius: 50%;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 8px;
+    fill: #f4f4fd;
     
 }
 .traling-icon:hover,.traling-icon:focus{
