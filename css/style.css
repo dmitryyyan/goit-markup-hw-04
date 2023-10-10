@@ -533,6 +533,7 @@ letter-spacing: 0.32px;
 }
 .footerr{
     display: flex;
+    align-items: baseline,
 }
 .footer-one{
     margin-right: 120px;
