@@ -533,7 +533,8 @@ letter-spacing: 0.32px;
 }
 .footerr{
     display: flex;
-    align-items: baseline,
+    align-items: baseline;
+    
 }
 .footer-one{
     margin-right: 120px;
@@ -543,4 +544,7 @@ letter-spacing: 0.32px;
 }
 .footered{
     gap: 16px;
+}
+.foots{
+    fill:#f4f4fd;
 }
