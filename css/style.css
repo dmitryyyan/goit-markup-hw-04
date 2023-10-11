@@ -104,12 +104,7 @@ img{
    
 }
 .header-menu-link{
-position: relative;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: block;
-line-height: 1.5;
-letter-spacing: 0.32px;
-text-decoration: none;
+
 
 }
  
@@ -153,22 +148,23 @@ text-decoration: none;
 
 .address-link{
     color: #434455;
-    text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .header-menu-link{
     padding: 24px 0 24px ;
-color: #2E2F42;
-text-decoration: none;
+
+
 color:  #2E2F42;
-
-/* Body Medium */
-
+position: relative;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+display: block;
+letter-spacing: 0.32px;
 font-size: 16px;
-
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.32px;
+
 }
 .header-menu-link:hover{
 color:#404bbf;
@@ -184,6 +180,7 @@ color:#404bbf;
     color:#404bbf;
 }
 .hero{
+    margin: 0 auto;
     max-width: 1440px;
     text-align: center;
     padding: 188px 0 188px;
@@ -193,7 +190,7 @@ color:#404bbf;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
-.btn{
+.hero .btn{
     margin: 0 auto;
     display: block;
     background-color: #4D5AE5;
@@ -230,27 +227,10 @@ color:#404bbf;
     margin-bottom: 48px;
     
 }
-.hero .btn{
-    
-   
-    margin: 0 auto;
-    display: block;
-    background-color: #4D5AE5;
-    color:#ffffff;
-    
-    font-size: 16px;
-    
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    cursor: pointer;
-    min-width: 169px;
-    height: 56px;
-    border: none; 
-    border-radius: 4px;
 
+.icon{
+    fill:#4D5AE5;
 }
-
 .icon-bcn {
 	display: flex;
 	align-items: center;
@@ -321,7 +301,7 @@ color:#404bbf;
 	background-color: #4d5ae5;
 	border-radius: 50%;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 8px;
+    
     
     
 }
@@ -343,7 +323,7 @@ color:#404bbf;
 .social-links{
     display: flex;
     justify-content: center;
-    margin-bottom: 8px;
+    
     gap: 24px;
     
 }
@@ -376,6 +356,7 @@ color:#404bbf;
     color:  #434455;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     
 }
 .team-title{
