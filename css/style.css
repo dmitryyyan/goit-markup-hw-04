@@ -321,17 +321,18 @@ color:#404bbf;
     
 }
 .social-links{
-    display: flex;
-    justify-content: center;
     
+    display: flex;
+	align-items: center;
+    justify-content: center;
     gap: 24px;
     
 }
 
 .social-links-icon{
     fill: #f4f4fd;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .icon-menu{
    
@@ -390,7 +391,7 @@ margin-bottom: 72px;
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 0px 0px 4px 4px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    
     background: var(--WHITE, #FFF);
 }
 
